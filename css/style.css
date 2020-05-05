@@ -1,0 +1,90 @@
+.section-overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.site-footer {
+  background: #000;
+  color: #fff;
+}
+
+/* =============================
+            NAVBAR
+================================ */
+.navbar .nav-link {
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* =============================
+            SLIDER
+================================ */
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('../images/image1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('../images/image2.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../images/image3.jpg');
+  background-size: cover;
+}
+
+/* =============================
+            GET STARTED
+================================ */
+.get-started {
+  min-height: 200px;
+  background: url(../images/lights.jpg) fixed no-repeat;
+}
+
+/* =============================
+            VIDEO
+================================ */
+.video {
+  min-height: 200px;
+  background: url(../images/media.jpg) fixed no-repeat;
+}
+
+/* =============================
+            ABOUT US
+================================ */
+.page-header {
+  min-height: 200px;
+  background: url(../images/image1.jpg) fixed no-repeat;
+  background-position: 0 -370px;
+  border-bottom: 1px solid #eee;
+}
+
+.about-img {
+  margin-top: -100px;
+}
+
+/* =============================
+            FAQ
+================================ */
+.faq .card {
+  border: #444;
+}
+
+.faq .card-body,
+.faq .card-header {
+  background: #333;
+}
+
+.faq a {
+  color: #fff;
+  text-decoration: none;
+}
